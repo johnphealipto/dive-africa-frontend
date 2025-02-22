@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="position-sticky">
+      <h2 class="logo">JA</h2>
+      <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#about-me">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="hero-section">
+      <img src="images/profile.jpeg" alt="My Profile Image" />
+      <div>
+        <h1>John Adibe</h1>
+        <p>Frontend Developer</p>
+        <p style="margin-bottom: 50px">Email: john.xyx@example.com</p>
+      </div>
+    </section>
+
+    <div id="about-me">
+      <h2>About</h2>
+      <p>
+        I am a <span style="color: red">self-taught</span> frontend developer
+        with a particular interest in making things
+        <span style="font-weight: bold">simple</span>.
+      </p>
+
+      <!-- UL: UNORDERED LIST -->
+      <!-- LI: List Item -->
+      <ul class="skills display-inline-block">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ul>
+
+      <!-- OL: Ordered List -->
+      <ol class="tools display-inline-block">
+        <li>Mouse</li>
+        <li>Keyboard</li>
+        <li>Laptop</li>
+      </ol>
+
+      <button class="download-cv">Download CV</button>
+    </div>
+
+    <aside>
+      <h2>Links</h2>
+      <ul>
+        <li>Twitter</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+      </ul>
+    </aside>
+
+    <!-- FORM: FORM ELEMENT -->
+    <form id="contact">
+      <label for="fullname">Fullname:</label>
+      <input id="fullname" type="text" placeholder="Enter your fullname" />
+
+      <br />
+      <label for="email">Email address:</label>
+      <input id="email" type="email" placeholder="Enter your email" />
+      <br />
+      <label for="male">Male</label>
+      <input id="male" type="radio" name="gender" />
+      <label for="female">Female</label>
+      <input id="female" type="radio" name="gender" />
+      <br />
+      <label for="message">Message</label>
+      <textarea id="message"></textarea>
+      <br />
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- <table>
+      <thead>
+        <tr>
+          <th>S/N</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Age</th>
+          <th>Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Adibe</td>
+          <td>john.xyx@example.com</td>
+          <td>Male</td>
+          <td>50</td>
+          <td>I am a frontend developer...</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Elun Jayson</td>
+          <td>jdb.jayson@example.com</td>
+          <td>Male</td>
+          <td>45</td>
+          <td>I am a backend developer...</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Jane Doe</td>
+          <td>jane.doe@example.com</td>
+          <td>Femail</td>
+          <td>30</td>
+          <td>I am a UI designer...</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Jane Doe</td>
+          <td>jane.doe@example.com</td>
+          <td>Femail</td>
+          <td>30</td>
+          <td>I am a UI designer...</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Jane Doe</td>
+          <td>jane.doe@example.com</td>
+          <td>Femail</td>
+          <td>30</td>
+          <td>I am a UI designer...</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Jane Doe</td>
+          <td>jane.doe@example.com</td>
+          <td>Femail</td>
+          <td>30</td>
+          <td>I am a UI designer...</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Jane Doe</td>
+          <td>jane.doe@example.com</td>
+          <td>Femail</td>
+          <td>30</td>
+          <td>I am a UI designer...</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <div class="flexbox">
+      <div class="item-1">
+        <div class="item-1-a">a</div>
+        <div class="item-1-b">b</div>
+        <div class="item-1-c">c</div>
+      </div>
+      <div class="item-2">2</div>
+      <div class="item-4">4</div>
+      <div class="item-5">5</div>
+      <div class="item-6">6</div>
+    </div>
+
+    <div class="grid-layout">
+      <h3>Grid Layout</h3>
+      <div class="grid-content">
+        <div class="grid-item-1">Grid 1</div>
+        <div class="grid-item-2">Grid 2</div>
+        <div class="grid-item-3">Grid 3</div>
+        <div class="grid-item-4">Grid 4</div>
+        <div class="grid-item-5">Grid 5</div>
+        <div class="grid-item-6">Grid 6</div>
+      </div>
+    </div>
+
+    <div class="rgb">RGB</div>
+    <div class="hex-color">HEX colors</div>
+
+    <div class="position-fixed-bottom">Jump to the top</div>
+
+    <div class="position-relative">
+      <div class="position-absolute">I am absolute</div>
+    </div>
+
+    <div class="animation-wrapper">
+      <div class="animation">My Animating div</div>
+    </div>
+  </body>
+</html>
