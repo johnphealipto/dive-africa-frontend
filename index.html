@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>My Portfolio</title>
   </head>
   <body>
@@ -13,14 +13,14 @@
         <a href="#">Home</a>
         <a href="#about-me">About me</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
     <section id="hero-section">
       <img src="images/profile.jpeg" alt="My Profile Image" />
       <div>
-        <h1>John Adibe</h1>
+        <h1 id="my-name">John Adibe</h1>
         <p>Frontend Developer</p>
         <p style="margin-bottom: 50px">Email: john.xyx@example.com</p>
       </div>
@@ -49,7 +49,7 @@
         <li>Laptop</li>
       </ol>
 
-      <button class="download-cv">Download CV</button>
+      <button class="download-cv" onclick="onDownload()">Download CV</button>
     </div>
 
     <aside>
@@ -60,27 +60,6 @@
         <li>Instagram</li>
       </ul>
     </aside>
-
-    <!-- FORM: FORM ELEMENT -->
-    <form id="contact">
-      <label for="fullname">Fullname:</label>
-      <input id="fullname" type="text" placeholder="Enter your fullname" />
-
-      <br />
-      <label for="email">Email address:</label>
-      <input id="email" type="email" placeholder="Enter your email" />
-      <br />
-      <label for="male">Male</label>
-      <input id="male" type="radio" name="gender" />
-      <label for="female">Female</label>
-      <input id="female" type="radio" name="gender" />
-      <br />
-      <label for="message">Message</label>
-      <textarea id="message"></textarea>
-      <br />
-      <button type="reset">Reset</button>
-      <button type="submit">Submit</button>
-    </form>
 
     <!-- <table>
       <thead>
@@ -155,7 +134,7 @@
 
     <div class="flexbox">
       <div class="item-1">
-        <div class="item-1-a">a</div>
+        <!-- <div class="item-1-a">a</div> -->
         <div class="item-1-b">b</div>
         <div class="item-1-c">c</div>
       </div>
@@ -189,5 +168,11 @@
     <div class="animation-wrapper">
       <div class="animation">My Animating div</div>
     </div>
+
+    <!-- <script src="js/script.js"></script> -->
+    <!-- <script src="js/conditional-statement.js"></script> -->
+    <!-- <script src="js/functions.js"></script> -->
+    <!-- <script src="js/dom.js"></script> -->
+    <script src="js/events.js"></script>
   </body>
 </html>
